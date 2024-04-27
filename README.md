@@ -1,4 +1,4 @@
-# Caesar Cipher - Frequency Analysis & Decrypt
+# Caesar Cipher - Frequency Analysis & Decrypt in Python
 
 Note - don't use Caesar ciphers in real life.  This program demonstrates why.
 
@@ -7,11 +7,13 @@ I am also aware that I didn't spell Caesar correctly in the repo title.  Sorry.
 ## Requirements
 
 Requires python. 
-Install websockets: $pip install websockets
+Install websockets: $pip3 install websockets
 
 (Install pip first if you don't already have it, on Linux this would be: $sudo apt install python3-pip)
 
 Run in terminal window on Windows / Linux / Mac.  Can also run within PyCharm or VS Code.
+
+Download all files to the same directory, include the text files.
 
 ## Usage
 
@@ -25,8 +27,9 @@ it's in English also (looks for 'E' as the most common letter).  Statistics and 
 shown on screen also.
 
 **Prep.py** - *optional*.  Creates the Plaintext.txt from any other text document, in this case I've used a text
-from Project Gutenberg as an example.  This simply moves everything to upper case just for ease of explanation
-in the other steps.
+from Project Gutenberg as an example.  Modify the source filename in the code here if needed.  
+This program simply moves everything to upper case just for ease of explanation
+in the other steps.  *Run first before other programs if you are creating new Plaintext.txt files*.
 
 
 ## The point of this & why not to use other ciphers...
