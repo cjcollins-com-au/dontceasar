@@ -11,7 +11,7 @@ but you can also use Prep.py to create another - see below.
 
 decrypt.py - will perform analysis on the document Ciphertext.txt, and then attempt decryption using the most 
 likely shift amount it worked out based on frequency analysis of all the letters in the Ciphertext.  Assumes 
-it's in English also (looks for 'E' as the most common letter).
+it's in English also (looks for 'E' as the most common letter).  Stats and information shown on screen also.
 
 Prep.py - optional.  Creates the Plaintext.txt from any other text document, in this case I've used a text
 from Project Gutenberg as an example.  This simply moves everything to upper case just for ease of explanation
