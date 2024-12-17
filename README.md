@@ -1,6 +1,6 @@
 # Caesar Cipher - Frequency Analysis & Decrypt in Python
 
-Note - don't use Caesar ciphers in real life.  This program demonstrates why.
+Note - don't use Caesar ciphers or try to build  your own ciphers in real life.  This program demonstrates why.
 
 I am also aware that I didn't spell Caesar correctly in the repo title.  Sorry.
 
@@ -34,7 +34,7 @@ in the other steps.  *Run first before other programs if you are creating new Pl
 
 ## The point of this & why not to use other ciphers...
 
-The decrypt.py process tends to make fairly short work of frequency analysis of any text; my tests on a 
+Python, via the the decrypt.py process in this case, makes short work of frequency analysis of any text; my tests on a 
 moderately powered 5 year old PC tend to take about 4ms to analyse a text of 160,000 characters. 
 There are of course only 26 (or 25...) combinations for a Caesar cipher (easy to brute force as well) 
 but this just illustrates the ease with which a computer can analyse a cipher.  Obviously a more 
