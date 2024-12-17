@@ -32,7 +32,7 @@ This program simply moves everything to upper case just for ease of explanation
 in the other steps.  *Run first before other programs if you are creating new Plaintext.txt files*.
 
 
-## The point of this & why not to use other ciphers...
+## The point of this & why you should use 'proper' ciphers...
 
 Python, via the the decrypt.py process in this case, makes short work of frequency analysis of any text; my tests on a 
 moderately powered 5 year old PC tend to take about 4ms to analyse a text of 160,000 characters. 
@@ -46,9 +46,10 @@ has a combination of brute-force and frequency analysis to crack so takes longer
 an enormous number of attempts comparitively quickly, and there are much better algorithms than my 
 approach).*
 
-**Also - proper crypto is easy.  Most programming languages have libraries available to easily perform
-AES and other crypto operations with only a few lines of code.  These libraries have (probably) 
+**Also - 'proper' crypto is easy.  Most programming languages have libraries available to easily perform
+AES and other crypto operations with only a few lines of code.  Most modern PC's also have hardware 
+dedicated to handling this cryptography so will process it with little overhead.  These libraries have (probably) 
 been developed by well resourced teams, subject to significant QA processes and independently verified. 
 They implement schemes like AES that were designed by VERY smart people and subject to ridiculous 
-amounts of scrutiny over a vey long period of time (... by both friend and foe, and supercomputers), and
+amounts of scrutiny over a vey long period of time (... by both friend and foe, and supercomputers...), and
 still stand up as secure.**  
